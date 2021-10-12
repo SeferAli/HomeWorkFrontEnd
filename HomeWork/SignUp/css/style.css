@@ -1,0 +1,46 @@
+.SignUp{
+    background-color: #3598dc;
+    padding: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.SignUp .container{
+    background: #fff;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.SignUp .container h2{
+    color: #333;
+}
+
+.SignUp .container p{
+    color: #999999;
+}
+
+.SignUp .container .form-group{
+    padding: 20px;
+}
+
+.SignUp .container .form-group .Check{
+    color: #999999;
+}
+
+.SignUp .container .form-group .Check a{
+    text-decoration: none;
+    color: #3598dc;
+}
+
+.SignUp .container .form-group .Check a:hover{
+    text-decoration:underline;
+}
+
+.SignUp .container .form-group .SignBtn{
+    background-color: #3598dc;
+    color: white;
+    width: 95px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+}

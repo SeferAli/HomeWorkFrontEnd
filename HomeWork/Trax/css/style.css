@@ -1,0 +1,129 @@
+/* Trax Task */
+body{
+    background-color: #f6f7f8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#section{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#section .container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+}
+
+#section .container .Title{
+    text-align: center;
+}
+
+#section .container .Title h1{
+    font-size: 3rem;
+    position: relative;
+    color: #696969;
+    font-weight: 100;
+}
+
+#section .container .Title h1::before{
+    content: "";
+    width: 60px;
+    height: 5px;
+    background-color: #2bc3d7;
+    background-image: linear-gradient(to right, #4a9adf , #2bc3d7);
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -30px;
+    margin-bottom: -12px;
+}
+
+#section .container .Title h1 span{
+    font-weight: 400;
+}
+
+#section .container .Title p{
+   color: #848484;
+}
+
+#section .container .Form{
+    display: flex;
+    padding-top: 10px;
+}
+
+#section .container .Form .TextForm{
+    width: 50%;
+}
+
+#section .container .Form .TextForm .form-group-item{
+    padding: 10px;
+}
+
+#section .container .Form .TextForm .form-group-item input{
+    border: 1px solid #ececec;
+    padding: 10px;
+    width: 80%;
+}
+
+#section .container .Form .TextForm .form-group-item button{
+    width: 85%;
+    display: block;
+    height: 35px;
+    border-radius: 35px;
+    border: 1px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #4a9adf , #2bc3d7);
+    color: #fff;
+    font-size: 15px;
+}
+
+#section .container .Form .TextForm .form-group-item button:hover{
+    background-image: linear-gradient(to left, #4a9adf , #2bc3d7);
+}
+
+#section .container .Form .TextForm .form-group-item #message{
+    height: 150px;
+}
+
+
+#section .container .Form .ParagraphArea .TextArea span{
+    color: #24cdd5;
+}
+
+#section .container .Form .ParagraphArea .TextArea h2{
+    color: #384141;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#section .container .Form .ParagraphArea .TextArea p{
+    color: #808080;
+}
+
+#section .container .Form .ParagraphArea .TextArea p a{
+    color: #808080;
+    text-decoration: none;
+}
+
+#section .container .Form .ParagraphArea .TextArea ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+}
+
+#section .container .Form .ParagraphArea .TextArea ul li a{
+    color: #384141;
+    border: 1px solid #384141;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+#section .container .Form .ParagraphArea .TextArea ul li a:hover{
+    background-color: #24cdd5;
+    color: #fff;
+}
+
+/* Trax Task End */

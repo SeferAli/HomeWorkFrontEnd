@@ -1,0 +1,38 @@
+body{
+    background-color: #f6f7f8;
+}
+
+.Categories{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding: 50px;
+    background: #fff;
+    box-shadow: 0px 0px 12px darkgrey;
+    margin: 50px 100px;
+    width: 20%;
+}
+
+.Categories h4{
+    color: #384141;
+    font-size: 25px;
+    font-weight: 400;
+}
+.Categories ul{
+    padding: 0px;
+}
+.Categories ul li{
+color: #24cdd5;
+padding: 10px;
+}
+.Categories ul li a{
+text-decoration: none;
+color: #384141;
+}
+
+.Categories ul li a:hover{
+    color:#24cdd5;
+}
+
+.Categories ul li a span{
+
+}
